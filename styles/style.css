@@ -36,3 +36,230 @@ ul,
 ol {
   list-style: none;
 }
+
+/*===== Шаг 1.ЛЕЙАУТ =====*/
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 100%;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  inline-size: 100%;
+  max-inline-size: 1200px;
+  block-size: 100%;
+  max-block-size: 534px;
+  gap: 30px;
+  
+  /*width: 50%;*/
+  /*height: 50%;*/
+  /*overflow: auto;
+  margin: auto;*/
+  /*position: absolute;
+  top: 133; left: 30; bottom: 133; right: 30;*/
+}
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.content__details {
+  width: 399px;
+  height: 534px;
+  gap: 26px;
+  opacity: 0px;
+}
+
+
+.content__video-card{
+  display: flex;
+  height: 107px;
+}
+
+.content__video-card-description-container {
+  width: 50%
+}
+
+.content__video-card-thumbnail {
+  width: 50%
+}
+
+
+/*===== Шаг 2. Уточнение размеров =====*/
+
+.result__video-container {}
+
+.content__list-item {}
+
+.content__video-card {}
+
+.content__video-card-thumbnail {}
+
+.content__video-card-description-container {}
+
+/*===== Шаг 3. Позиционирование прелоадеров =====*/
+/*===== Шаг 4. Стили текстов =====*/
+
+.search-form__fieldset-title {}
+
+.title {
+  font-family: "Oswald";
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 70.5px;
+  text-transform: uppercase;
+}
+.content__accent {
+  opacity: .2;
+}
+
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content__video-card-title {}
+
+.content__video-card-description {}
+
+/*===== Шаг 5. Элементы формы и кнопки =====*/
+
+
+
+.search-form__fieldset {
+  border: none;
+  appearance: none;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.search-form__fieldset {
+  border: 0px;
+}
+
+.search-form__label {
+  
+}
+
+.search-form__textfield {
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
+  background-color: #1b1919;
+  color: #fff;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #fff;
+  font-size: 18px;
+  Width: 225px;
+  height: 27px;
+  gap: 10px;
+}
+
+
+
+
+/*.search-form__label,
+.button {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.search-form__label {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__label:has(:active) {
+  border: none;
+}
+
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
+}
+
+.search-form__pseudo-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 19px;
+  height: 19px;
+}
+
+.search-formcheckbox + .search-formpseudo-checkbox {
+  border: 1px solid #fff;
+}
+
+.search-formcheckbox:checked + .search-formpseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  outline: 1px solid #000;
+  outline-offset: -2px;
+}
+*/
+
+.button {
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
+  cursor: pointer;
+  background-color: #1b1919;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  Width: 194px;
+  height: 34px;
+  top: 20px;
+  left: 517px;
+  gap: 10px;
+
+  /*padding: 12px 32px 11px 32px;
+  border: 1px solid #fff;
+  background: transparent;
+  text-transform: uppercase;
+  line-height: 25.83px;
+  font-weight: 500;*/
+
+}
+
+.more-button {
+  Width: 399px;
+}

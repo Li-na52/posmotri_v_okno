@@ -51,7 +51,6 @@ ol {
 }
 
 .content__details {
-  height: 534px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -62,7 +61,6 @@ ol {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  height: 54px;
 }
 
 .content__list-item {
@@ -119,6 +117,7 @@ ol {
 /*===== Шаг 3. Позиционирование прелоадеров =====*/
 
 .content__list {
+  height: 298px;
   position: relative;
   padding-bottom: 1px;
   flex-grow: 1;
@@ -241,10 +240,6 @@ ol {
   height: 27px;
 }
 
-.search-form__textfield-title {
-  line-height: 0;
-}
-
 .search-form__checkbox-list label {
   display: flex;
   align-items: center;
@@ -258,7 +253,7 @@ ol {
 }
 
 .search-form__label:hover .search-form__label-text {
-  text-decoration: underline; /*ревью*/
+  text-decoration: underline;
 }
 
 .search-form__pseudo-checkbox {
